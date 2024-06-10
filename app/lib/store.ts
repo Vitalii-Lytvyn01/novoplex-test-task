@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
 import searchReducer from './features/searchSlice';
+import gameReducer from './features/gameListSlice';
 import { TypedUseSelectorHook, useSelector } from 'react-redux';
 
 export const store = configureStore({
   reducer: {
-    searchReducer
+    searchReducer,
+    gameReducer
   }
 })
 
