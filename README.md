@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Deployed app
- [Web Page](novoplex-test-task.vercel.app)
+ [Web Page](https://novoplex-test-task.vercel.app)
 
 ## Getting Started
 
