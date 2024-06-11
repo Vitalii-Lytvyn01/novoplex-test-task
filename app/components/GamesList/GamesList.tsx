@@ -20,6 +20,9 @@ export default function GamesList() {
 
   return (
     <div className='games'>
+      <div className="title">
+        Our popular games
+      </div>
       <div className='searchbar'>
         <div className="searchbar__name">
           <p>Search by Name:</p>
