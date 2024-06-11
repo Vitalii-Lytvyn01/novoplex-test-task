@@ -32,7 +32,7 @@ export default function GamesList() {
       </div>
       <div className="grid">
         {filter().slice(0,50).map(item => {
-          return <div className="card">
+          return <div className="card" key={item.id}>
             <div className="card__image">
             <Image 
               src={item.thumbnail}
